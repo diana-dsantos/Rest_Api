@@ -63,10 +63,11 @@ namespace RestAPI
                     // .EnableDetailedErrors();
             );
 
-            services.AddMvc().AddNewtonsoftJson(setupAction: options =>
-            {
-                options.SerializerSettings.ReferenceLoopHandling = ignore;
-            });
+            services.AddMvc();            
+            // .AddNewtonsoftJson(setupAction: options =>
+            // {
+            //     options.SerializerSettings.ReferenceLoopHandling = ignore;
+            // });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

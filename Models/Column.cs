@@ -11,6 +11,8 @@ public class Column
     public DateTime created_at { get; set; }
     public DateTime updated_at { get; set; }
     public long? battery_id { get; set; }
+    
+    [System.Text.Json.Serialization.JsonIgnore]
     public  Battery Battery { get; set;}
     public virtual ICollection<Elevator> Elevators { get; }
 }

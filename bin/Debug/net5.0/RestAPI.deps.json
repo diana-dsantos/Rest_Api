@@ -38,6 +38,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "5.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
+          "Newtonsoft.Json": "12.0.2",
           "Pomelo.EntityFrameworkCore.MySql": "5.0.0-alpha.2",
           "Swashbuckle.AspNetCore": "6.1.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",

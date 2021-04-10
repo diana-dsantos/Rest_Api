@@ -14,6 +14,8 @@ public class Battery
     public DateTime updated_at { get; set; }
     public long? employee_id { get; set; }
     public long? building_id { get; set; }
+    
+    [System.Text.Json.Serialization.JsonIgnore]
     public  Building Building { get; set;}
     public virtual ICollection<Column> Columns { get; set;}
 }

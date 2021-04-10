@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diana\\Documents\\projetos\\week 11 Rest Api\\RestAPI.csproj": {}
+    "C:\\Users\\Diana\\Documents\\projetos\\Rest Api week 11\\RestAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diana\\Documents\\projetos\\week 11 Rest Api\\RestAPI.csproj": {
+    "C:\\Users\\Diana\\Documents\\projetos\\Rest Api week 11\\RestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diana\\Documents\\projetos\\week 11 Rest Api\\RestAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Diana\\Documents\\projetos\\Rest Api week 11\\RestAPI.csproj",
         "projectName": "RestAPI",
-        "projectPath": "C:\\Users\\Diana\\Documents\\projetos\\week 11 Rest Api\\RestAPI.csproj",
+        "projectPath": "C:\\Users\\Diana\\Documents\\projetos\\Rest Api week 11\\RestAPI.csproj",
         "packagesPath": "C:\\Users\\Diana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diana\\Documents\\projetos\\week 11 Rest Api\\obj\\",
+        "outputPath": "C:\\Users\\Diana\\Documents\\projetos\\Rest Api week 11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
