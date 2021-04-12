@@ -14,5 +14,6 @@ public class Building
     public long? customer_id { get; set; }
     public long? address_id { get; set; }
     public virtual ICollection<Battery> Batteries { get; set;}
+    [System.Text.Json.Serialization.JsonIgnore]
     public  Customer Customer { get; set; }
 }

@@ -91,7 +91,36 @@ namespace RestAPI.Controllers
             }
 
             return NoContent();
-        }       
+        }
+
+        //--------------------------------------------------- Update Customer ---------------------------------------------------------------\\       
+
+        // PUT: api/Customers/email
+        [HttpPut]
+        public async Task<ActionResult<Customer>> PutCustomer(Customer customer)
+        {
+            var customerToUpdate = await _context.customers
+                                                .Where(c => c.cpy_contact_email == customer.cpy_contact_email)
+                                                .FirstOrDefaultAsync(); 
+
+            if (customerToUpdate == null)
+            {
+                return NotFound();
+            }
+
+            customerToUpdate.company_name = customer.company_name;
+            customerToUpdate.cpy_contact_full_name = customer.cpy_contact_full_name;
+            customerToUpdate.cpy_contact_phone = customer.cpy_contact_phone;
+            customerToUpdate.cpy_contact_email = customer.cpy_contact_email;
+            customerToUpdate.cpy_description = customer.cpy_description;
+            customerToUpdate.tech_authority_service_full_name = customer.tech_authority_service_full_name;
+            customerToUpdate.tech_authority_service_phone = customer.tech_authority_service_phone;
+            customerToUpdate.tech_manager_service_email = customer.tech_manager_service_email;
+
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        } 
 
         private bool CustomerExists(long id)
         {
