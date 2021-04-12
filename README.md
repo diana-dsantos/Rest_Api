@@ -1,35 +1,40 @@
-# Rocket-Elevators-Rest-API
+![](images/week11photo01.jpg)
 
-This repo serves as the Rocket Elevators REST API developed for CodeBoxx's week 8 of the Odyssey program. We were tasked with developing a REST API to interact with the MYSQL database that already exists, and provide the appropriate requests for queries.
+# Rocket Elevators Customer Portal <img src="images/R2.png" align="right" alt="Rocket Elevators logo" width="" height="100">
+-----------------------------------------------------------------------------------------------
 
-The queries for the REST API are found in a public PostMan workspace at: https://app.getpostman.com/join-team?invite_code=f09613b7a24e69fef5524a5d3f5f434e&ws=1c76f8ec-a244-4f00-9317-ee95973e1306
+## CodeBoxx Odissey - Week 11 - .NET Core
 
-The REST API URL is: https://week-8-restapi-apibehavioroptions-kaelenburroughs.azurewebsites.net/
 
-Each request works as follows:
+-----------------------------------------------------------------------------------------------
+### Project by:
+Diana dos Santos
 
-1. GET Batteries - Returns the information for a specific battery, and different batteries can be returned by changing the number at the end of the API request.
+[URL for the site:  https://rocketelevatorsportal.azurewebsites.net/Identity/Account/Login?ReturnUrl=%2F](https://rocketelevatorsportal.azurewebsites.net/Identity/Account/Login?ReturnUrl=%2F)
 
-2. GET Batteries Status - Returns the current status of the queried battery.
+[Click here to see the presentation video](https://www.dropbox.com/s/f8zzdoxw7jsrsmb/Week%2011%20-%20Understanding%20the%20dotNET%20Framework.mkv?dl=0)
 
-3. PUT Batteries Status - Changes the status of the queried battery to either 'Active', 'Inactive', or 'Intervention'.
+(To style Readme presentation: https://www.markdownguide.org/basic-syntax/#headings)
 
-4. GET Columns - Returns the information for a specific column, and different columns can be returned by changing the number at the end of the API request.
 
-5. GET Columns Status - Returns the current status of the queried column.
+-----------------------------------------------------------------------------------------------
 
-6. PUT Columns Status - Changes the status of the queried column to either 'Active', 'Inactive', or 'Intervention'.
+# [(This is the repository for the item 3, mentioned in this Readme file. To access the repository, for the Rocket Elevators Customer Portal, that has the items 1, 2, 4 and 5 mention in this Readme, please click in this link)](https://github.com/diana-dsantos/Rocket_Elevators_Customer_Portal)
 
-7. GET Elevators - Returns the information for a specific elevator, and different elevators can be returned by changing the number at the end of the API request.
+-----------------------------------------------------------------------------------------------
 
-8. GET Elevators Status - Returns the current status of the queried elevator.
+This week deliverables:
 
-9. PUT Elevators Status - Changes the status of the queried elevator to either 'Active', 'Inactive', or 'Intervention'.
+## 1) Create a new portal, specially for Rocket Elevators's customers;
 
-10. GET Elevators List Not Active - Returns a list of elevators that do not have a status of 'Active'.
+login: blake@ryan.co
+login: henriette@lynch-kling.net
+login: rodrick.boyer@tremblay-reichel.org
+login: gaye@grant.biz
+login: eddie@bailey.net  /  password: 123456
+### Sign Up and Sign In page
+![](images/week11photo02.jpg)
 
-11. GET Buildings List Intervention - Returns a list of all the buildings that have a battery, column, or elevator with a status of 'Intervention'.
 
-12. Get Leads (all) - Returns a list of all the leads in the database.
-
-13. GET Leads (Last 30 Days) - Returns a list of all leads submitted in the last 30 days, where the submitted lead is not also linked to a customer.
+### Home page, once signed in
+![](images/week11photo03.jpg)
