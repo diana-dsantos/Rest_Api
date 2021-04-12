@@ -116,5 +116,4 @@ Each request works as follows:
 
 12. Get Leads (all) - Returns a list of all the leads in the database.
 
-## 1) Create a new portal, specially for Rocket Elevators's customers;
 
